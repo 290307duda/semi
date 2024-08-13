@@ -30,7 +30,6 @@ input, button {
 }
 
 button {
-    background-color: #8a0a12;
     color: white;
     cursor: pointer;
 }
@@ -42,7 +41,7 @@ button {
 
 #tabela-objetos th,
 #tabela-objetos td {
-    padding: 10px;
+    padding: 5px;
     text-align: left;
     border-bottom: 1px solid #000000;
 }
@@ -59,7 +58,6 @@ BOTOES DA TABELA
 */
 #tabela-objetos button {
     padding: 5px 10px;
-    background-color: #ff8d8d;
     border: none;
     border-radius: 5px;
     cursor: pointer;

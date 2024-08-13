@@ -46,8 +46,8 @@ function adicionarObjeto(objeto) {
 
     celulaAcoes.innerHTML = `
 
-        <button onclick="editarObjeto(this)">Editar</button>
-        <button onclick="excluirObjeto(this)">Excluir</button>
+        <button onclick="editarObjeto(this)" style="background-color: blue;" >Editar</button>
+        <button onclick="excluirObjeto(this)" style="background-color: red;">Excluir</button>
     `;
 }
 
