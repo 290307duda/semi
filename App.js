@@ -43,14 +43,15 @@ function App() {
   return (
     <div className="container">
       <div className="texto">
-      <h1>Cadastro de Objetos</h1>
+      <h1 >Cadastro de Objetos</h1>
       </div>
       <br></br>
 
       <form onSubmit={handleSubmit}>
         <div id="b">
         <div>
-          <label htmlFor="nome">Nome:</label>
+          <label htmlFor="nome">Nome</label>
+          <br/>
           <input
             type="text"
             id="nome"
@@ -59,7 +60,8 @@ function App() {
           />
         </div>
         <div>
-          <label htmlFor="marca">Marca:</label>
+          <label htmlFor="marca">Marca</label>
+          <br/>
           <input
             type="text"
             id="marca"
@@ -68,7 +70,8 @@ function App() {
           />
         </div>
         <div>
-          <label htmlFor="modelo">Modelo:</label>
+          <label htmlFor="modelo">Modelo</label>
+          <br/>
           <input
             type="text"
             id="modelo"
@@ -77,7 +80,8 @@ function App() {
           />
         </div>
         <div>
-          <label htmlFor="finalidade">Finalidade:</label>
+          <label htmlFor="finalidade" >Finalidade</label>
+          <br/>
           <input
             type="text"
             id="finalidade"
@@ -86,7 +90,8 @@ function App() {
           />
         </div>
         <div>
-          <label htmlFor="preco">Preço:</label>
+          <label htmlFor="preco" >Preço</label>
+          <br/>
           <input
             type="number"
             id="preco"
